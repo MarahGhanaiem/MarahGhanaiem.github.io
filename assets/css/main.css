@@ -593,7 +593,8 @@ section,
 
 @media (max-width: 768px) {
   .hero img {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 80% center;
   }
   .hero h2 {
     font-size: 32px;
