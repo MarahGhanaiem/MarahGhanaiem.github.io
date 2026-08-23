@@ -1504,3 +1504,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.arabic-text {
+  direction: rtl;            /* Sets text direction right-to-left */
+  text-align: right;          /* Aligns text to the right side */
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Clean modern Arabic fonts */
+  font-size: 18px;            /* Arabic fonts usually require slightly larger font sizes */
+  line-height: 1.8;           /* Extra vertical spacing prevents overlapping characters */
+  letter-spacing: normal;     /* NEVER use letter-spacing on Arabic script */
+}
