@@ -223,7 +223,7 @@ h6 {
 
 .navmenu a,
 .navmenu a:focus {
-  color: var(--nav-color);
+  color: #194b27;
   font-family: var(--nav-font);
   display: flex;
   align-items: center;
@@ -241,11 +241,25 @@ h6 {
 .navmenu a i,
 .navmenu a:focus i {
   font-size: 20px;
+  
 }
 
 .navmenu a span,
 .navmenu a:focus span {
   padding: 0 5px 0 7px;
+}
+
+
+/* Mobile Navigation Toggle Button */
+.header-toggle,
+.mobile-nav-toggle {
+  background-color: #194b27 !important;
+  color: #ffffff !important;
+}
+
+.header-toggle:hover,
+.mobile-nav-toggle:hover {
+  background-color: #12371d !important;
 }
 
 @media (min-width: 992px) {
@@ -388,7 +402,8 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #194b27 !important;
+  color: #ffffff !important;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -402,8 +417,8 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   color: var(--contrast-color);
+  background-color: #12371d !important;
 }
 
 .scroll-top.active {
