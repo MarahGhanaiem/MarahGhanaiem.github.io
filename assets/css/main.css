@@ -593,13 +593,16 @@ section,
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 40svh;
+    min-height: auto; /* Lets the container size naturally based on aspect ratio */
+    height: auto;
     padding: 0;
   }
 
   .hero img {
+    position: relative; /* Takes image out of absolute positioning to retain full width */
+    inset: auto;
     width: 100%;
-    height: 100%;
+    height: auto; /* Keeps the full image aspect ratio intact */
     object-fit: contain;
     object-position: center center;
   }
