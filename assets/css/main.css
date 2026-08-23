@@ -540,6 +540,7 @@ section,
   z-index: 1;
 /* zedeteha ena w badel 100 -> 90*/
   /*inset: 5%;*/
+  object-position: center center; /* NEW */
 }
 
   
@@ -591,6 +592,9 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero img {
+    object-position: center center;
+  }
   .hero h2 {
     font-size: 32px;
   }
