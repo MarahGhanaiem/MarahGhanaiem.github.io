@@ -1513,3 +1513,16 @@ section,
   line-height: 1.8;           /* Extra vertical spacing prevents overlapping characters */
   letter-spacing: normal;     /* NEVER use letter-spacing on Arabic script */
 }
+.article-header {
+  direction: rtl;            /* اتجاه النص من اليمين إلى اليسار */
+  text-align: right;         /* محاذاة النص لليمين */
+  margin-bottom: 1rem;       /* مسافة أسفل العنوان */
+}
+
+.article-title {
+  color: #6c757d;            /* لون رمادي أنيق (Bootstrap gray) */
+  font-size: 1.25rem;        /* حجم الخط */
+  font-weight: 600;          /* سمك الخط */
+  letter-spacing: 0.5px;     /* تباعد خفيف بين الحروف */
+  margin: 0;
+}
