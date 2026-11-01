@@ -899,10 +899,11 @@ section,
   font-size: 28px;
 }
 
+/*
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Services Section
